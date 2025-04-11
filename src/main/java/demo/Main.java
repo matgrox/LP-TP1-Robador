@@ -12,8 +12,9 @@ import business.security.AuthenticationService;
 public class Main {
 
     public static void main(String[] args) {
-        pruebaCorrecta();
-        pruebaIncorrecta();
+        //pruebaCorrecta();
+        //pruebaIncorrecta();
+        new gui.FormSignin().setVisible(true);
     }
 
     public static void pruebaCorrecta() {
